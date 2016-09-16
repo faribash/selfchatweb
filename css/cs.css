@@ -1,0 +1,52 @@
+body{
+    font-family: "majalla",tahoma !important;
+    font-size: 18px;
+    background-color: rgba(251,251,251,1); }
+.ads{
+    padding: 3px;
+    margin-top: 20px;
+    border: 1px dashed #cfcfcf;
+}
+.im1{
+    margin-top: 35px;
+}
+@font-face
+{
+    font-family: 'majalla';
+    font-style: normal;
+    font-weight: normal;
+ src: url('../fonts/majalla.ttf');
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+.hr{
+    margin: 3px 0px 3px 0px;
+    height: 1px;
+    border-bottom: rgb(207, 207, 207) 1px solid;
+}
+ul{
+    list-style: none;
+    padding-right: 0px;
+}
+.wiget-meno-list li{
+    padding: 5px;
+    margin: 2px;
+    background-color: rgb(240, 240, 240);
+    transition: 500ms;
+}
+.wiget-meno-list li:hover{
+    background-color: rgb(230, 230, 230);
+}
+.img-res{
+    width:100% ;
+    height: auto;
+}
+.txt-small{
+    margin: 5px 0;
+    text-align: justify;
+}
